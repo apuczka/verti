@@ -1,4 +1,15 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
 body {
   background-color: darkgoldenrod;
+}
+
+h1 {
+  font-family: "Open Sans", sans-serif;
+  color: #FC4887;
 }
 /*# sourceMappingURL=main.css.map */
