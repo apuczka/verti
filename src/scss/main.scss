@@ -114,3 +114,35 @@ header {
     }
   }
 }
+
+.portfolio{
+
+  .portfolio__items {
+    background-color: white;
+    overflow: hidden;
+    border-radius: 0.25em;
+    display: flex;
+    flex-direction: column;
+    .portfolio__item__thumbnail {
+      img {
+        display: block;
+        width: 100%;
+        height: 100%;
+      }
+
+    }
+
+    .portfolio__item__header {
+      display: flex;
+      flex-direction: column;
+      font-weight: bold;
+      padding: 2em;
+      align-items: flex-start;
+
+    }
+    .portfolio__item__description{
+      line-height: 2em;
+
+  }
+
+}}

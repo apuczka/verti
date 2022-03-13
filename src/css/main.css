@@ -127,4 +127,27 @@ header .menu .menu__item--active {
   background-color: #E4E4E4;
   color: #444444;
 }
+
+.portfolio .portfolio__items {
+  background-color: white;
+  overflow: hidden;
+  border-radius: 0.25em;
+  display: flex;
+  flex-direction: column;
+}
+.portfolio .portfolio__items .portfolio__item__thumbnail img {
+  display: block;
+  width: 100%;
+  height: 100%;
+}
+.portfolio .portfolio__items .portfolio__item__header {
+  display: flex;
+  flex-direction: column;
+  font-weight: bold;
+  padding: 2em;
+  align-items: flex-start;
+}
+.portfolio .portfolio__items .portfolio__item__description {
+  line-height: 2em;
+}
 /*# sourceMappingURL=main.css.map */
